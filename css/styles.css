@@ -1,0 +1,177 @@
+html{
+	background: #5B5858;
+}
+
+body {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+	width: 1280px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+
+.cover {
+	background: #fff url('../img/header-background.png') no-repeat;
+	width: 1280px;
+	height: 654.7px;
+	position: relative;
+}
+
+header h1 {
+	width: 773px;
+	height: 141.7px;
+	background: url('../img/title.png');
+	text-indent: -9999px;
+	position: absolute;
+	left: 50%;
+	margin-left: -385.15px;
+	top: 50%;
+	margin-top: -141.7px;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Oxygen Mono', monospace;
+	font-size: 31px;
+	color: #E1D9D9;
+	color: rgba(225, 217, 217, 0.67);
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 50%;
+	margin-top: -25px;
+	text-align: center;
+	font-weight: 100;
+}
+
+a h2 {
+	font-family: 'Oxygen Mono', monospace;
+	font-size: 31px;
+	color: #9B9694;
+	color: rgba(155, 150, 148, 0.6);
+	text-decoration: none;
+	position: absolute;
+	left: 13%;
+	margin-left: ;
+	top: 97%;
+	text-align: center;
+}
+
+a h2:hover {
+	color: #FFB133;
+}
+
+nav {
+	width: 1280px;
+	height: 145.3px;
+	display: block;
+	background: #1C1B1B;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-wrapper {
+	width: 1280px;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+	width: 19.9%;
+	height: 60px;
+	margin: 0;
+	border-right: 1px solid #E1D9D9;
+
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+li a {
+  	display: block;
+  	width: 125px;
+  	margin: 0 auto;
+  	color: white;
+  	font-size: 29px;
+  	font-family: 'Oxygen Mono', monospace;
+  	text-align: center;
+  	text-decoration: none;
+ 	color: #AA8A58;
+	padding-top: 14px;
+}
+
+li a:hover {
+	color: #FFB133;
+	border-bottom: 1px solid #FFB133;
+    padding: 0 0 4px;
+}
+
+main
+
+.about {
+	width: 1280px;
+	height: 2000px;
+	background: url('../img/deer_background.jpg') no-repeat;
+	z-index: 10;
+}
+
+.about {
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.about h1 {
+	margin: 0;
+	padding-top: 40px;
+	font-size: 82px;
+	font-family: 'Parisienne', cursive;
+	font-weight: 100;
+	color: #E1D9D9;
+	text-align: center;
+}
+
+.about p {
+	font-size: 28px;
+	color: #E1D9D9;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 30px;
+	letter-spacing: 2px;
+	line-height: 38px;
+}
+
+.about blockquote {
+	width: 540px;
+	font-size: 65px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #AA8A58;
+	font-weight: 100;
+	font-style: italic;
+	text-align: center;
+	padding-top: 80px;
+}
